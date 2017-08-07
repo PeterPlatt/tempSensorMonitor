@@ -31,7 +31,7 @@ This assumes the following
     - Set Polling time 
       - Note the polling time should not be faster then every 2 seconds
       - This example conjob does it every 5 mins
-       - `*/5 * * * * sudo python /home/pi/temperatureHumidSensor/sensorPoll.py`    
+        - `*/5 * * * * sudo python /home/pi/temperatureHumidSensor/sensorPoll.py`    
     
 
 # Sources
