@@ -1,7 +1,7 @@
 # Temperature  Sensor Monitor
 Used for a Rashberry PI sensor. The goal is to setup a simple program that polls a sensor installed on a rasberry Pi
 
-#Steps
+# Steps
 This assumes the following 
  - Rasbian is installed on the Raspberry Pi
  - Adafruit AM2302 (wired DHT22) temperature-humidity sensor (ADA393) is installed on pin 18
@@ -33,7 +33,7 @@ This assumes the following
       - `*/5 * * * * sudo python /home/pi/temperatureHumidSensor/sensorPoll.py`    
     
 
-#Sources
+# Sources
 1. [Adafruit Python DHT Github page](https://github.com/adafruit/Adafruit_Python_DHT)
 1. [Rethinking temperature, sensors, and Raspberry Pi](https://rethinkdb.com/blog/temperature-sensors-and-a-side-of-pi)
 1. [PyMongo Tutorial](http://api.mongodb.com/python/current/tutorial.html?_ga=2.268733686.600741048.1501972985-1185891143.1501972985)
