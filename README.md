@@ -30,7 +30,8 @@ This assumes the following
       - `sudo crontab -e` 
     - Set Polling time 
       - Note the polling time should not be faster then every 2 seconds
-      - `*/5 * * * * sudo python /home/pi/temperatureHumidSensor/sensorPoll.py`    
+      - This example conjob does it every 5 mins
+       - `*/5 * * * * sudo python /home/pi/temperatureHumidSensor/sensorPoll.py`    
     
 
 # Sources
