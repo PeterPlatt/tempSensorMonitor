@@ -27,7 +27,7 @@ This assumes the following
       |SENSOR_LOCATION| Location Of the Sensor|Ex: Basement|
 1. Setup cron job to run sensor
     - Edit current Cron jobs    
-      -`sudo crontab -e` 
+      - `sudo crontab -e` 
     - Set Polling time 
       - Note the polling time should not be faster then every 2 seconds
       - `*/5 * * * * sudo python /home/pi/temperatureHumidSensor/sensorPoll.py`    
